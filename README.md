@@ -21,9 +21,10 @@ All users, products, prices, images are kept in the Stripe test account itself -
 
 ## Running the app
 
-Prior to running the app, ensure you have an .env file with the API keys in your root directory:
-    `REACT_APP_PK=pk_test_xxxxx`
-    `REACT_APP_SK=sk_test_xxxxx`
+Prior to running the app, ensure you have an .env file with the API keys in your root directory:  
+
+    REACT_APP_PK=pk_test_xxxxx 
+    REACT_APP_SK=sk_test_xxxxx
 
 The server portion of the app can be run from `/src`: `node Server.js`.
 The React portion of the app can be run the root directory: `npm start`.
