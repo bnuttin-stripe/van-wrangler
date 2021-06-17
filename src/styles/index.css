@@ -1,0 +1,57 @@
+body, html{
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+    color: #425466
+}
+.blurplebutton {
+    float: right;
+    background-color: #635BFF;
+    color: white;
+    border-radius: 4px;
+    font-size: smaller;
+    padding: 4px 8px;
+    border:0;
+}
+.greenbutton{
+    background-color: #00A600;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    border:0;
+    margin-top:20px;
+}
+.greenbutton:disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+.subscribebutton{
+    background-color: #00A600;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    border:0;
+    float:right;
+}
+.card{
+    border-radius:5px;
+    box-shadow: silver 0px 0px 6px 0px;
+}
+.card img{
+    height: 308px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+ul{
+    margin-top:-10px;
+    padding-inline-start: 20px;
+}
+.summary div{
+    color:white;
+    background-color: #425466;
+    border-radius:4px;
+    padding:4px 6px;
+    width: unset !important;
+}
+.form-control{
+    color: #425466 ;
+}
