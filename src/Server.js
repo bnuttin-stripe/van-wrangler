@@ -10,7 +10,9 @@ app.use(express.static('.'));
 app.use(express.json());
 app.use(cors());
 
-const STRIPE_KEY = process.env.REACT_APP_SK;
+//const STRIPE_KEY = process.env.REACT_APP_SK;
+const STRIPE_KEY = 'sk_test_51IzlLEGhEIci709rI5cE6e6wuPAZumOLR987aM57iYPFy4SEuiDj2dxRvQR5aFktbg0rdtmulT8YKjVFo8RGGSX4006N1homIw';
+console.log(STRIPE_KEY)
 const PASSID = 'price_1IzlfHGhEIci709rezgvELDE';
 const PASSNAME = 'WranglerPass';
 
